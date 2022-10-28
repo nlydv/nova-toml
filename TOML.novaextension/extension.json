@@ -1,0 +1,16 @@
+{
+    "name": "TOML",
+    "organization": "Neel Yadav",
+    "identifier": "com.neelyadav.toml",
+    "version": "1.0",
+    "description": "Tree Sitter syntax highlighting for TOML files",
+    "license": "MIT",
+    "categories": [
+        "languages"
+    ],
+
+    "repository": "https://github.com/nlydv/nova-toml",
+    "bugs": "https://github.com/nlydv/nova-toml/issues",
+
+    "min_runtime": "10.0"
+}

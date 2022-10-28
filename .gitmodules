@@ -1,0 +1,3 @@
+[submodule "src/tree-sitter-toml"]
+	path = src/tree-sitter-toml
+	url = https://github.com/ikatyang/tree-sitter-toml.git
