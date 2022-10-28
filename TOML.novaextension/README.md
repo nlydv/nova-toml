@@ -16,7 +16,7 @@ Barring any bugs, inconsistencies, or obvious deficiencies with the functionalit
 
 There already exists a TOML language extension in Nova but it has one really annoying bug which inserts `\#` instead of `#` when commenting. That extension doesn't appear to be maintained though, so I thought I'd just keep a local fork of it with that one character removed.
 
-However, since the new Tree Sitter language system released in Nova 10.0 the day this written, I figured I might as well try and compile and existing [Tree Sitter grammar for TOML](https://github.com/ikatyang/tree-sitter-toml) and publish the highlighting is more complete.
+However, since the new Tree Sitter language system was released in Nova 10.0 the same day this was written, I figured I might as well try and compile an existing [Tree Sitter grammar for TOML](https://github.com/ikatyang/tree-sitter-toml) and publish it since the highlighting is more complete.
 
 I've tried to keep the same highlighting selectors/colors as the existing extension, although this syntax also adds highlighting of some values types (numeric, datetime, and other literals) that it didn't pick up. Other than that, it's pretty much the same.
 
