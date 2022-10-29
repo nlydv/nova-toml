@@ -18,6 +18,7 @@
 ] @markup.bold)
 
 (pair (bare_key) @identifier.property)
+(pair ((dotted_key (bare_key))* @identifier.property))
 (pair (quoted_key) @string.key)
 (quoted_key) @string
 
@@ -37,8 +38,8 @@
 ; Punctuation
 ;------------
 
-"." @punctuation.delimiter
-"," @punctuation.delimiter
+"." @operator.punctuation.delimiter
+"," @operator.punctuation.delimiter
 
 "=" @operator
 

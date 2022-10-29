@@ -42,4 +42,4 @@ Copyright © [Ika](https://github.com/ikatyang)<br>
 Copyright © 2022 [Neel Yadav](https://neelyadav.com)<br>
 MIT License
 
-Full license text is available in the [LICENSE.txt](https://github.com/nlydv/nova-toml/blob/master/LICENSE.txt) file.
+Full license text is available in the [LICENSE.txt](https://github.com/nlydv/nova-toml/blob/master/TOML.novaextension/LICENSE.txt) file.
