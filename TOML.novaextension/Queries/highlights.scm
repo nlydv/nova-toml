@@ -1,26 +1,10 @@
 ; Properties
 ;-----------
 
-(table [
-    "["
-    "]"
-    (bare_key)
-    (dotted_key)
-    ((quoted_key) @string)
-] @markup.bold)
+(header) @markup.bold
 
-(table_array_element [
-    "[["
-    "]]"
-    (bare_key)
-    (dotted_key)
-    ((quoted_key) @string)
-] @markup.bold)
-
-(pair (bare_key) @identifier.property)
-(pair ((dotted_key (bare_key))* @identifier.property))
-(pair (quoted_key) @string.key)
-(quoted_key) @string
+(pair (key (bare_key) @identifier.property))
+(pair (key (quoted_key) @string.key))
 
 ; Literals
 ;---------
@@ -43,9 +27,5 @@
 
 "=" @operator
 
-"[" @punctuation.bracket
-"]" @punctuation.bracket
-"[[" @punctuation.bracket
-"]]" @punctuation.bracket
 "{" @punctuation.bracket
 "}" @punctuation.bracket
