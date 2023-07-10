@@ -1,13 +1,15 @@
+; ----------
 ; Properties
-;-----------
+; ----------
 
 (header) @markup.bold
 
 (pair (key (bare_key) @identifier.property))
 (pair (key (quoted_key) @string.key))
 
+; ----------
 ; Literals
-;---------
+; ----------
 
 (boolean) @value.boolean
 (comment) @comment
@@ -19,8 +21,9 @@
 (local_date) @identifier.function
 (local_time) @keyword.construct
 
+; ----------
 ; Punctuation
-;------------
+; ----------
 
 "." @operator.punctuation.delimiter
 "," @operator.punctuation.delimiter
