@@ -2,33 +2,33 @@
 ; Properties
 ; ----------
 
-(header) @markup.bold
+(header) @toml.markup.bold
 
-(pair (key (bare_key) @identifier.property))
-(pair (key (quoted_key) @string.key))
+(pair (key (bare_key) @toml.identifier.property))
+(pair (key (quoted_key) @toml.string.key))
 
 ; ----------
 ; Literals
 ; ----------
 
-(boolean) @value.boolean
-(comment) @comment
-(string) @string
-(integer) @value.number
-(float) @value.number
-(offset_date_time) @identifier.type
-(local_date_time) @identifier.constant
-(local_date) @identifier.function
-(local_time) @keyword.construct
+(boolean) @toml.value.boolean
+(comment) @toml.comment
+(string) @toml.string
+(integer) @toml.value.number
+(float) @toml.value.number
+(offset_date_time) @toml.identifier.type
+(local_date_time) @toml.identifier.constant
+(local_date) @toml.identifier.function
+(local_time) @toml.keyword.construct
 
 ; ----------
 ; Punctuation
 ; ----------
 
-"." @operator.punctuation.delimiter
-"," @operator.punctuation.delimiter
+"=" @toml.operator
 
-"=" @operator
+"." @toml.operator.delimiter
+"," @toml.operator.delimiter
 
-"{" @punctuation.bracket
-"}" @punctuation.bracket
+"{" @toml.bracket
+"}" @toml.bracket
