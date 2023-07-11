@@ -2,8 +2,8 @@
     "name": "TOML",
     "organization": "Neel Yadav",
     "identifier": "com.neelyadav.toml",
-    "version": "1.0.2",
-    "description": "Tree Sitter syntax highlighting for TOML files",
+    "version": "1.1.0",
+    "description": "Tree Sitter-based extension for TOML language support",
     "license": "MIT",
     "categories": [
         "languages"

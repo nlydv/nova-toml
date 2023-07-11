@@ -1,15 +1,25 @@
-# TOML Syntax Changelog
+# TOML Extension Changelog
 
-Probably won't be much to change and/or log with this extension
+## v1.1.0
+`July 10, 2023`
 
-## Version 1.0.2
+### Added
+- Symbolication for tables/keys
+- Code folding on tables and multi-line arrays
 
-Recursively highlight all dotted key segments as `identifier.property`
+### Changed
+- Prefixed all highlighting selectors with `toml` selector to allow themes to make syntax-specific overrides
 
-## Version 1.0.1
+## v1.0.2
+`October 28, 2022`
 
-Bumping version solely to publish typo fixes in README immediately after publishing last version
+### Fixed
+- Recursively highlight all dotted key segments as `identifier.property`
 
-## Version 1.0.0
+## v1.0.1
+
+Version bump solely to publish typo fixes in README
+
+## v1.0.0
 
 Initial release
